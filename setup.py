@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='python-shared',
+    name='pythonshared',
     version='0.0.3',
     author='Mike Huls',
     author_email='mike_huls@hotmail.com',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/Muls/toolbox/issues"
     },
     license='MIT',
-    packages=['python-shared'],
+    packages=['pythonshared'],
     install_requires=['requests', 'slack-sdk'],
 )
